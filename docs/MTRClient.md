@@ -33,8 +33,13 @@ MTR的轨道数据
 |`ClientCache.stationIdToConnectingStation:Map<Station, Set<Station>>`|通过车站获取它的所有连接车站的Java Map|
 
 -`requestStationIdToPlatforms(long stationId)：Map<Long, Platform>`
+
 通过车站的id请求车站所有的站台，返回一个Java Map。
+
 -`requestDepotIdToSidings(long depotId)：Map<Long, Siding>`
+
 通过车站的id请求车厂所有的侧线，返回一个Java Map。
+
 -`requestPlatformIdToRoutes(long platformId) :List<PlatformRouteDetails>`
+
 通过站台id获取站台的所有线路，注意返回的是List<PlatformRouteDetails>而不是List<Route>。
