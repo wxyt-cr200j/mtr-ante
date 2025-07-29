@@ -4,19 +4,7 @@ MTR将数据存储在[ClientData.java](https://github.com/aphrodite281/Minecraft
 
 
 ## MTRClientData
-
-- `static print(params: Object...): void`
-
-调用这个函数会在 Minecraft 日志里打出信息（在游戏内没有信息显示）。可以传入任意多个任意类型的参数。
-
-
-## 转换类型
-
-- `static asJavaArray(array: [](List<T>)): T[]`
-
-把一个 `List` 转换成 Java 数组。
-更优雅的把JS的 [] 转为 Java 的 [] 的方法。
-其实只是调用了List.toArray()方法, 但是在JS环境中无法调用 [].toArray() 方法，所以提供了这个方法。
+`MTRClientData.DATA_CACHE:ClientCache`-MTR客户端数据缓存，类型是ClientCache
 
 
 ## 版本
