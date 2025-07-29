@@ -14,10 +14,10 @@ MTR将数据存储在[ClientData.java](https://github.com/aphrodite281/Minecraft
 
 | 方法                                         | 说明                                                         |
 | -------------------------------------------- | ------------------------------------------------------------ |
-| `ClientCache.stationIdMap:Map<Long, Station> ` |通过id获取MTR的车站数据的Java Map |
-| `ClientCache.routeIdMap:Map<Long, Route> ` |通过id获取MTR的线路数据的Java Map |
-| `ClientCache.platformIdMap:Map<Long, Platform> ` |通过id获取MTR的站台数据的Java Map |
-| `ClientCache.sidingIdMap:Map<Long, Siding> ` |通过id获取MTR的侧线数据的Java Map |
-| `ClientCache.depotIdMap:Map<Long, Depot> ` |通过id获取MTR的车厂数据的Java Map |
+| `ClientCache.stationIdMap:Map<Long, Station> ` |通过车站id获取MTR的车站数据的Java Map |
+| `ClientCache.routeIdMap:Map<Long, Route> ` |通过线路id获取MTR的线路数据的Java Map |
+| `ClientCache.platformIdMap:Map<Long, Platform> ` |通过站台id获取MTR的站台数据的Java Map |
+| `ClientCache.sidingIdMap:Map<Long, Siding> ` |通过侧线id获取MTR的侧线数据的Java Map |
+| `ClientCache.depotIdMap:Map<Long, Depot> ` |通过车厂id获取MTR的车厂数据的Java Map |
 
 
