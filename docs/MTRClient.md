@@ -4,8 +4,9 @@ MTR将数据存储在[ClientData.java](https://github.com/aphrodite281/Minecraft
 
 
 ## MTRClientData
-`MTRClientData.DATA_CACHE:ClientCache`-MTR客户端数据缓存，类型是ClientCache
-
+`MTRClientData.DATA_CACHE:ClientCache`-MTR客户端数据缓存，类型是`ClientCache`
+`MTRClientData.SCHEDULES_FOR_PLATFORM:Map<Long, Set<ScheduleEntry>> `-MTR的列车时刻表
+`，`MTRClientData.RAILS:Map<BlockPos, Map<BlockPos, Rail>>`-MTR的轨道数据
 
 ## 版本
 
