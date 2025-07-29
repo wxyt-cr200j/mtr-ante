@@ -1,6 +1,6 @@
 # MTR 客户端数据
 
-MTR将数据存储在`MTRClientData`(ClientData.java)中，因此您可以通过以下方法来访问列车，时刻表，车站，线路等数据。
+MTR将数据存储在[ClientData.java](https://github.com/aphrodite281/Minecraft-Transit-Railway/blob/master/common/src/main/java/mtr/client/ClientData.java)中，因此您可以通过以下方法来访问列车，时刻表，车站，线路等数据。
 
 
 ## MTRClientData
