@@ -22,5 +22,8 @@ MTR将数据存储在[ClientData.java](https://github.com/aphrodite281/Minecraft
 | `ClientCache.platformIdMap:Map<Long, Platform> ` |通过站台id获取MTR的站台数据的Java Map |
 | `ClientCache.sidingIdMap:Map<Long, Siding> ` |通过侧线id获取MTR的侧线数据的Java Map |
 | `ClientCache.depotIdMap:Map<Long, Depot> ` |通过车厂id获取MTR的车厂数据的Java Map |
-
+| `ClientCache.platformIdToStation:Map<Long, Station>`|通过站台id获取站台所在车站的Java Map|
+| `ClientCache.sidingIdToDepot:Map<Long, Depot>`|通过侧线id获取侧线所在车厂的Java Map|
+| `ClientCache.routeIdToOneDepot:Map<Long, Station>`|通过线路id获取线路的车厂的Java Map|
+|`ClientCache.stationIdToConnectingStation:Map<Station, Set<Station>>`|通过车站获取它的所有连接车站的Java Map|
 
