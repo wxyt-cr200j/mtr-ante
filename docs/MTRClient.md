@@ -42,4 +42,4 @@ MTR的轨道数据
 
 -`requestPlatformIdToRoutes(long platformId) :List<PlatformRouteDetails>`
 
-通过站台id获取站台的所有线路，注意返回的是List<PlatformRouteDetails>而不是List<Route>。
+通过站台id获取站台的所有线路，注意返回的是`List<PlatformRouteDetails>`而不是`List<Route>`。
