@@ -8,9 +8,9 @@ MTR将数据存储在[ClientData.java](https://github.com/aphrodite281/Minecraft
 `MTRClientData.SCHEDULES_FOR_PLATFORM:Map<Long, Set<ScheduleEntry>> `-MTR的列车时刻表
 `MTRClientData.RAILS:Map<BlockPos, Map<BlockPos, Rail>>`-MTR的轨道数据
 
-## 版本
+## ClientCache
 
-提供了一些能用来获得版本号的函数，以便让作者能兼容不同版本的不同（如果有）。
+提供了一些能用于获取单个数据以及对数据操作的方法，更高阶的，详见[ClientCache.java](https://github.com/aphrodite281/Minecraft-Transit-Railway/blob/master/common/src/main/java/mtr/client/ClientCache.java)。
 
 | 函数                                         | 说明                                                         |
 | -------------------------------------------- | ------------------------------------------------------------ |
