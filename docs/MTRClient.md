@@ -12,11 +12,12 @@ MTR将数据存储在[ClientData.java](https://github.com/aphrodite281/Minecraft
 
 提供了一些能用于获取单个数据以及对数据操作的方法，更高阶的，详见[ClientCache.java](https://github.com/aphrodite281/Minecraft-Transit-Railway/blob/master/common/src/main/java/mtr/client/ClientCache.java)。
 
-| 函数                                         | 说明                                                         |
+| 方法                                         | 说明                                                         |
 | -------------------------------------------- | ------------------------------------------------------------ |
-| `static Resources.getMTRVersion(): String`   | MTR 的版本字符串，形如 `1.19.2-3.1.0-hotfix-1`               |
-| `static Resources.getNTEVersion(): String`   | NTE 的版本字符串，形如 `0.4.0+1.19.2`                        |
-| `static Resources.getNTEVersionInt(): int`   | NTE 的版本的数字形式，以便比较；例如 0.4.0 的是 4000，1.9.1 的会是 19100 |
-| `static Resources.getNTEProtoVersion(): int` | NTE 的存档格式版本数字。                                     |
+| `ClientCache.stationIdMap:Map<Long, Station> ` |通过id获取MTR的车站数据的Java Map |
+| `ClientCache.routeIdMap:Map<Long, Route> ` |通过id获取MTR的线路数据的Java Map |
+| `ClientCache.platformIdMap:Map<Long, Platform> ` |通过id获取MTR的站台数据的Java Map |
+| `ClientCache.sidingIdMap:Map<Long, Siding> ` |通过id获取MTR的侧线数据的Java Map |
+| `ClientCache.depotIdMap:Map<Long, Depot> ` |通过id获取MTR的车厂数据的Java Map |
 
 
